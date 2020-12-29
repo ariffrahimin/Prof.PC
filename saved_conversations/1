@@ -1,0 +1,9 @@
+bot : Hi There! I am a Prof PC. You can begin conversation by typing in a message and pressing enter.
+user : spek terbaik
+bot : - Sila pilih Sistem Operasi yang digemari : 1. Windows 2. Linux 3. MacOS
+user : win
+bot : - Apakah kegunaan anda? : 1. Gaming 2. Pelajar 3. Melayari internet 4. Multimedia
+user : game
+bot : - Sila pilih bajet anda: 1. 1000-2000 2. 2001-3000 3. 3001-4000 4. 40001- 5000
+user : 2700
+bot : - Senarai pakej PC Marhaen:
