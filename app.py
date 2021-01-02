@@ -25,6 +25,12 @@ vocab = joblib.load(Path.joinpath(artifacts_path,'vocab.pkl'))
 
 df2 = pd.read_csv(Path.joinpath(datasets_path,'response.csv'))
 
+df3 = pd.read_excel(Path.joinpath(datasets_path,'game_data.xlsx'))
+
+
+# st.dataframe(df3)
+# st.table(df3)
+
 ss = SessionState.get(is_startup=True) 
 
 def get_pred(model,encoded_input):
