@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Prof PC" />
+  <img src="./.github/logo.jfif" alt="Prof PC" />
 
 &#xa0;
 
