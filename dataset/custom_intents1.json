@@ -1,0 +1,436 @@
+{
+    "intents": [
+        {
+        "tag":"1",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,879.00\nCPU: Intel® Core i5-10400F Processor (6 CORES &12 THREADS)\nGPU: ASUS PHOENIX NVIDIA GeForce GTX 1650 SUPER OC EDITION GPU\nMotherboard: GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD\nStorage: PNY 240GB CS900 SSD\nRam: CORSAIR VENGEANCE LPX (2x8GB) DDR4 3200MHz C16 Memory Kit (INTEL)"
+        ]
+        },
+
+        {
+        "tag":"2",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,351.00\nCPU: INTEL CORE i3-10100 LGA 1200 PROCESSOR\nGPU: ZOTAC GAMING GeForce GTX 1650 AMP Core GDDR6\nMotherboard: GIGABYTE H410M H LGA 1200 MOTHERBOARD\nStorage: APACER 2.5 SATA III AS340-240GB\nRam: XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM"
+        ]
+        },
+
+        {
+        "tag":"3",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,943.00\nCPU: Intel Core i5-9400F 6C/6T\nGPU: ZOTAC GAMING GeForce GTX 1650 AMP Core GDDR6\nMotherboard: MSI MAG B365M MORTAR LGA 1151 MOTHERBOARD\nStorage: PNY 240GB CS900 SSD\nRam: CORSAIR VENGEANCE LPX 16GB (2x8GB) DDR4 3200MHz C16"
+        ]
+        },
+
+        {
+        "tag":"4",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,542.00\nCPU: INTEL CORE i3-10100 LGA 1200 PROCESSOR\nGPU: GIGABYTE GeForce GTX 1650 EAGLE OC 4GB\nMotherboard: GIGABYTE H410M H LGA 1200 MOTHERBOARD\nStorage: WD BLUE SN550 NVME 250GB M.2\nRam: XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM"
+        ]
+        },
+        
+        {
+        "tag":"5",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,900.00\nCPU: Intel® Core i5-10400F LGA 1200 PROCESSOR⠀\nGPU: GIGABYTE GEFORCE GTX 1650 SUPER WINDFORCE OC 4GB GPU\nMotherboard: GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD\nStorage: SAMSUNG 860 EVO SSD 250GB\nRam: XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM⠀"
+        ]
+        },
+        
+        {
+        "tag":"6",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:4,253.00\nCPU: AMD Ryzen 5 3600 (6 CORES & 12 THREADS)\nGPU: OCPC GeForce RTX 2060 6GB\nMotherboard: MSI MAG B550M MORTAR WIFI AM4 MOTHERBOARD\nStorage: PNY CS900 480GB SSD\nRam: OCPC X3 RGB DDR4 3200MHZ 16GB (8GBx2) BLACK"
+        ]
+        },
+        
+        {
+        "tag":"7",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:3,500.00\nCPU: AMD Ryzen 5 3500X⠀\nGPU: MSI GEFORCE GTX 1660 SUPER VENTUS XS OC GPU⠀\nMotherboard: MSI B550M A PRO AM4 MOTHERBOARD\nStorage: WD Caviar Blue 3.5 1TB 7200RPM SATA HDD\nRam: KLEVV BOLT X (8GBX2) DDR4 3200MHZ RAM⠀"
+        ]
+        },
+        
+        {
+        "tag":"8",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:4,275.00\nCPU: Intel® Core i5-10400F LGA 1200 PROCESSOR\nGPU: MSI GEFORCE GTX 1660 SUPER VENTUS XS OC GPU⠀\nMotherboard: COOLER MASTER MWE BRONZE V2 500W 80+ POWER SUPPLY⠀\nStorage: SAMSUNG 860 EVO SSD 250GB\nRam: XPG SPECTRIX D50 RGB 3200 MHZ 8GB X 2 DDR4 RAM⠀"
+        ]
+        },
+        
+        {
+        "tag":"9",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:4,000.00\nCPU:  Intel® Core i5-10400F LGA 1200 PROCESSOR⠀\nGPU: EVGA GeForce GTX 1650 SUPER SC ULTRA GAMING GPU⠀\nMotherboard: GIGABYTE B460M DS3H LGA 1200 MOTHERBOARD⠀\nStorage: GIGABYTE M.2 PCIE 3.0 X 4 SSD 256GB⠀\nRam: XPG SPECTRIX D50 RGB 3200 MHZ 8GB X 2 DDR4 RAM"
+        ]
+        },
+        
+        {
+        "tag":"10",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:4,200.00\nCPU: Intel® Core i5-10400F LGA 1200 PROCESSOR⠀\nGPU: ZOTAC GAMING GeForce RTX 2060 OC 6GB 192BIT GDDR6⠀\nMotherboard: GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD⠀\nStorage: ADATA SU650 2.5 SATA SSD 480GB BLACK RETAIL\nRam: XPG SPECTRIX D50RGB 3200 MHZ 8GB X 2 DDR4 RAM"
+        ]
+        },
+
+        {
+        "tag":"11",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:5,000.00\nCPU: AMD Ryzen 5 3600⠀\nGPU: ZOTAC GAMING GEFORCE GTX 1660 SUPER TWIN FAN E GPU⠀\nMotherboard: GIGABYTE B550 AORUS PRO AM4 MOTHERBOARD\nStorage: SAMSUNG 860 EVO SSD 250GB\nRam: XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM"
+        ]
+        },
+        
+        {
+        "tag":"12",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:8,000.00\nCPU: Intel Core i7-10700KF LGA 1200 PROCESSOR\nGPU: ZOTAC GAMING GeForce RTX 3080 AMP Holo\nMotherboard: ASUS ROG Strix Z490-E Gaming\nStorage: GIGABYTE M.2 PCIE 3.0 X 4 SSD 512GB\nRam: OCPC X3 RGB DDR4 3200MHZ 16GB (8GBx2) WHITE"
+        ]
+        },
+
+        {
+        "tag":"13",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:5,342.00\nCPU: AMD Ryzen 5 3600 (6 CORES & 12 THREADS)\nGPU: GALAX GeForce® RTX 2080 OC\nMotherboard: GIGABYTE B550 AORUS PRO AM4 MOTHERBOARD\nStorage: Addlink S70 GEN3x4 NMVe 512GB\nRam: KLEVV BOLT XR 8GB x 2 DDR4 3600 GAMING MEMORY"
+        ]
+        },
+
+        {
+        "tag":"14",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:7,000.00\nCPU: AMD Ryzen 5 3600⠀\nGPU: GIGABYTE GeForce RTX3070 GAMING OC 8GB⠀\nMotherboard: GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD\nStorage: SAMSUNG 860 EVO SSD 250GB⠀\nRam: XPG SPECTRIX D50 RGB 3200 MHZ 8GB X 2 DDR4 RAM"
+        ]
+        },
+
+        {
+        "tag":"15",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:6,059.00\nCPU: AMD Ryzen 5 3600⠀\nGPU: GIGABYTE GeForce RTX3070 GAMING OC 8GB\nMotherboard: GIGABYTE B550 AORUS PRO AM4 MOTHERBOARD⠀\nStorage: Addlink S68 GEN3X4 NVMe 512GB⠀\nRam: XPG SPECTRIX D50 RGB 3200 MHZ 8GB X 2 DDR4 RAM⠀"
+        ]
+        },
+
+        {
+        "tag":"16",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:1,160.00\nCPU: Intel® Core i3-10100 (4 Cores / 8 Threads)\nGPU: N/A\nMotherboard: GIGABYTE H410M S2\nStorage: PNY CS900 240GB\nRam: PNY 8GB DDR4 2666Mhz"
+        ]
+        },
+
+        {
+        "tag":"17",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:1,265.00\nCPU: Intel® Core™ i3-10100 ( 4 Cores / 8 Threads )\nGPU: N/A\nMotherboard: GIGABYTE H410M S2\nStorage: PNY CS900 240GB\nRam: PNY 16GB DDR4 2666Mhz"
+        ]
+        },
+
+        {
+        "tag":"18",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:1,732.59\nCPU: AMD Ryzen 5 3400G Processor (4MB Cache, up to 4.20GHz)\nGPU: Integrated Graphics\nMotherboard: ASROCK H61M-VS4\nStorage: 500GB Hard Drive, 7200RPM, 3.5\nRam: 4GB DDR4 2666MHz UDIMM"
+        ]
+        },
+
+        {
+        "tag":"19",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:1,962.79\nCPU: Intel Core i3-9100T Processor (6MB Cache, up to 3.70GHz)\nGPU: Integrated GraphGIGABYTE GEFORCE GTX 1650 WINDFORCE OC 4Gic Card\nMotherboard: ASROCK H61M-VS4\nStorage: 500GB Hard Drive, 7200RPM, 2.5, SATA3\nRam: 4GB DDR4 2666MHz SoDIMM"
+        ]
+        },
+
+        {
+        "tag":"20",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:1,500.00\nCPU: Intel Core i5-10400F\nGPU: GTX 1050\nMotherboard: ASROCK H61M-VS4\nStorage: 500GB HDD\nRam: 16GB RAM"
+        ]
+        },
+
+        {
+        "tag":"21",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,411.10\nCPU: Intel Core i5-9500 Processor ( 3.00GHz 9MB )\nGPU: N/A\nMotherboard: ASROCK H61M-VS4\nStorage: 1TB 7200\nRam: 4.0GB PC4-21300 DDR4 UDIMM 2666MHz"
+        ]
+        },
+
+        {
+        "tag":"22",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,000.00\nCPU: AMD Ryzen 5 2600\nGPU: GIGABYTE GEFORCE GTX 1650 WINDFORCE OC 4G\nMotherboard: GIGABYTE A320M S2H V2\nStorage: TOSHIBA P300 3.5 1TB 7200RPM SATA HDD\nRam: PATRIOT V ELITE 8GB 2666MHZ CL16"
+        ]
+        },
+
+        {
+        "tag":"23",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,000.00\nCPU: Intel Core i3-9100F\nGPU: Colorful GeForce GTX1650 EX 4GD6-V\nMotherboard: Gigabyte H310M S2H\nStorage: PNY CS900 240GB\nRam: HyperX Fury 8GB 2666MHz DDR4"
+        ]
+        },
+
+        {
+        "tag":"24",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,500.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce GTX1650 EX 4GD6-V\nMotherboard: GALAX B460M\nStorage: PNY CS900 240GB\nRam: HyperX Fury 8GB 2666MHz DDR4"
+        ]
+        },
+
+        {
+        "tag":"25",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:2,800.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce GTX1650 Super NB 4G-V\nMotherboard: GALAX B460M\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4"
+        ]
+        },
+
+        {
+        "tag":"26",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:3,300.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce GTX1660 Super NB 6G-V\nMotherboard: GALAX B460M\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4"
+        ]
+        },
+
+        {
+        "tag":"27",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:4,500.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce RTX3060Ti 1 Ultra OC-V 8GB GDDR6\nMotherboard: Gigabyte B460M Gaming HD\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4"
+        ]
+        },
+
+        {
+        "tag":"28",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:5,300.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce RTX3070 ADVANCED OC-V 8GB GDDR6\nMotherboard: Gigabyte B460M Gaming HD\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4"
+        ]
+        },
+
+        {
+        "tag":"29",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:10,099.00\nCPU: 3.8GHz 8-core 10th-generation Intel Core i7 processor\nGPU: Radeon Pro 5500 XT with 8GB of GDDR6 memory\nMotherboard: Apple Motherboard\nStorage: 512GB SSD storage¹\nRam: 8GB 2666MHz DDR4 memory, configurable up to 128GB"
+        ]
+        },
+
+        {
+        "tag":"30",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:10,499.00\nCPU: 2.6GHz 6‑core Intel Core i7, Turbo Boost up to 4.5GHz, with 12MB shared L3 cache\nGPU: AMD Radeon Pro 5300M with 4GB of GDDR6\nMotherboard: Apple Motherboard\nStorage: 512GB SSD\nRam: 16GB of 2666MHz DDR4 onboard memory"
+        ]
+        },
+
+        {
+        "tag":"31",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:12,199.00\nCPU: 2.3GHz 8‑core Intel Core i9, Turbo Boost up to 4.8GHz, with 16MB shared L3 cache\nGPU: AMD Radeon Pro 5500M with 4GB of GDDR6\nMotherboard: Apple Motherboard\nStorage: 1TB SSD\nRam: 16GB of 2666MHz DDR4 onboard memory"
+        ]
+        },
+
+        {
+        "tag":"32",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:20,000.00\nCPU: 3.0GHz Intel Xeon W\nGPU: Radeon Pro Vega 56 graphics processor\nMotherboard: Apple Motherboard\nStorage: 1TB SSD\nRam: 32GB of 2666MHz DDR4 ECC memory"
+        ]
+        },
+
+        {
+        "tag":"33",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:4,749.00\nCPU: 2.3GHz dual-core 7th-generation Intel Core i5 processor\nGPU: Intel Iris Plus Graphics 640\nMotherboard: Apple Motherboard\nStorage: 256GB SSD storage¹\nRam: 8GB 2133MHz memory, configurable to 16GB"
+        ]
+        },
+
+        {
+        "tag":"34",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:4,399.00\nCPU: Apple M1 chip\nGPU: N/A\nMotherboard: Apple Motherboard\nStorage: 256GB SSD\nRam: 8GB unified memory"
+        ]
+        },
+
+        {
+        "tag":"35",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:5,399.00\nCPU: Apple M1 chip\nGPU: N/A\nMotherboard: Apple Motherboard\nStorage: 512GB SSD\nRam: 8GB unified memory"
+        ]
+        },
+
+        {
+        "tag":"36",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:5,599.00\nCPU: 3.6GHz quad-core 8th-generation Intel Core i3 processor\nGPU: Radeon Pro 555X with 2GB of GDDR5 memory\nMotherboard: Apple Motherboard\nStorage: 256GB SSD storage¹\nRam: 8GB 2400MHz DDR4 memory, configurable up to 32GB"
+        ]
+        },
+
+        {
+        "tag":"37",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:6,449.00\nCPU: 3.0GHz 6-core 8th-generation Intel Core i5 processor\nGPU: Radeon Pro 560X with 4GB of GDDR5 memory\nMotherboard: Apple Motherboard\nStorage: 256GB SSD storage¹\nRam: 8GB 2666MHz DDR4 memory, configurable up to 32GB"
+        ]
+        },
+
+        {
+        "tag":"38",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:7,999.00\nCPU: 3.1GHz 6-core 10th-generation Intel Core i5 processor\nGPU: Radeon Pro 5300 with 4GB of GDDR6 memory\nMotherboard: Apple Motherboard\nStorage: 256GB SSD storage¹\nRam: 8GB 2666MHz DDR4 memory, configurable up to 128GB"
+        ]
+        },
+
+        {
+        "tag":"39",
+        "patterns":[
+          "",
+          ""
+        ],
+        "responses":[
+          "\nPrice:8,849.00\nCPU: 3.3GHz 6-core 10th-generation Intel Core i5 processor\nGPU: Radeon Pro 5300 with 4GB of GDDR6 memory\nMotherboard: Apple Motherboard\nStorage: 512GB SSD storage¹\nRam: 8GB 2666MHz DDR4 memory, configurable up to 128GB"
+        ]
+        }
+
+        
+        
+    ]
+  }
+  
