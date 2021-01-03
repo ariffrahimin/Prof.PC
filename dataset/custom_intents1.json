@@ -1,26 +1,5 @@
 {
     "intents": [
-        {
-        "tag":"1",
-        "patterns":[
-          "",
-          ""
-        ],
-        "responses":[
-          "\nPrice:2,879.00\nCPU: Intel® Core i5-10400F Processor (6 CORES &12 THREADS)\nGPU: ASUS PHOENIX NVIDIA GeForce GTX 1650 SUPER OC EDITION GPU\nMotherboard: GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD\nStorage: PNY 240GB CS900 SSD\nRam: CORSAIR VENGEANCE LPX (2x8GB) DDR4 3200MHz C16 Memory Kit (INTEL)"
-        ]
-        },
-
-        {
-        "tag":"2",
-        "patterns":[
-          "",
-          ""
-        ],
-        "responses":[
-          "\nPrice:2,351.00\nCPU: INTEL CORE i3-10100 LGA 1200 PROCESSOR\nGPU: ZOTAC GAMING GeForce GTX 1650 AMP Core GDDR6\nMotherboard: GIGABYTE H410M H LGA 1200 MOTHERBOARD\nStorage: APACER 2.5 SATA III AS340-240GB\nRam: XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM"
-        ]
-        },
 
         {
         "tag":"3",
@@ -30,28 +9,6 @@
         ],
         "responses":[
           "\nPrice:2,943.00\nCPU: Intel Core i5-9400F 6C/6T\nGPU: ZOTAC GAMING GeForce GTX 1650 AMP Core GDDR6\nMotherboard: MSI MAG B365M MORTAR LGA 1151 MOTHERBOARD\nStorage: PNY 240GB CS900 SSD\nRam: CORSAIR VENGEANCE LPX 16GB (2x8GB) DDR4 3200MHz C16"
-        ]
-        },
-
-        {
-        "tag":"4",
-        "patterns":[
-          "",
-          ""
-        ],
-        "responses":[
-          "\nPrice:2,542.00\nCPU: INTEL CORE i3-10100 LGA 1200 PROCESSOR\nGPU: GIGABYTE GeForce GTX 1650 EAGLE OC 4GB\nMotherboard: GIGABYTE H410M H LGA 1200 MOTHERBOARD\nStorage: WD BLUE SN550 NVME 250GB M.2\nRam: XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM"
-        ]
-        },
-        
-        {
-        "tag":"5",
-        "patterns":[
-          "",
-          ""
-        ],
-        "responses":[
-          "\nPrice:2,900.00\nCPU: Intel® Core i5-10400F LGA 1200 PROCESSOR⠀\nGPU: GIGABYTE GEFORCE GTX 1650 SUPER WINDFORCE OC 4GB GPU\nMotherboard: GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD\nStorage: SAMSUNG 860 EVO SSD 250GB\nRam: XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM⠀"
         ]
         },
         
@@ -88,28 +45,6 @@
         ]
         },
         
-        {
-        "tag":"9",
-        "patterns":[
-          "",
-          ""
-        ],
-        "responses":[
-          "\nPrice:4,000.00\nCPU:  Intel® Core i5-10400F LGA 1200 PROCESSOR⠀\nGPU: EVGA GeForce GTX 1650 SUPER SC ULTRA GAMING GPU⠀\nMotherboard: GIGABYTE B460M DS3H LGA 1200 MOTHERBOARD⠀\nStorage: GIGABYTE M.2 PCIE 3.0 X 4 SSD 256GB⠀\nRam: XPG SPECTRIX D50 RGB 3200 MHZ 8GB X 2 DDR4 RAM"
-        ]
-        },
-        
-        {
-        "tag":"10",
-        "patterns":[
-          "",
-          ""
-        ],
-        "responses":[
-          "\nPrice:4,200.00\nCPU: Intel® Core i5-10400F LGA 1200 PROCESSOR⠀\nGPU: ZOTAC GAMING GeForce RTX 2060 OC 6GB 192BIT GDDR6⠀\nMotherboard: GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD⠀\nStorage: ADATA SU650 2.5 SATA SSD 480GB BLACK RETAIL\nRam: XPG SPECTRIX D50RGB 3200 MHZ 8GB X 2 DDR4 RAM"
-        ]
-        },
-
         {
         "tag":"11",
         "patterns":[
@@ -162,28 +97,6 @@
         ],
         "responses":[
           "\nPrice:6,059.00\nCPU: AMD Ryzen 5 3600⠀\nGPU: GIGABYTE GeForce RTX3070 GAMING OC 8GB\nMotherboard: GIGABYTE B550 AORUS PRO AM4 MOTHERBOARD⠀\nStorage: Addlink S68 GEN3X4 NVMe 512GB⠀\nRam: XPG SPECTRIX D50 RGB 3200 MHZ 8GB X 2 DDR4 RAM⠀"
-        ]
-        },
-
-        {
-        "tag":"16",
-        "patterns":[
-          "",
-          ""
-        ],
-        "responses":[
-          "\nPrice:1,160.00\nCPU: Intel® Core i3-10100 (4 Cores / 8 Threads)\nGPU: N/A\nMotherboard: GIGABYTE H410M S2\nStorage: PNY CS900 240GB\nRam: PNY 8GB DDR4 2666Mhz"
-        ]
-        },
-
-        {
-        "tag":"17",
-        "patterns":[
-          "",
-          ""
-        ],
-        "responses":[
-          "\nPrice:1,265.00\nCPU: Intel® Core™ i3-10100 ( 4 Cores / 8 Threads )\nGPU: N/A\nMotherboard: GIGABYTE H410M S2\nStorage: PNY CS900 240GB\nRam: PNY 16GB DDR4 2666Mhz"
         ]
         },
 
@@ -283,17 +196,6 @@
         ],
         "responses":[
           "\nPrice:3,300.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce GTX1660 Super NB 6G-V\nMotherboard: GALAX B460M\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4"
-        ]
-        },
-
-        {
-        "tag":"27",
-        "patterns":[
-          "",
-          ""
-        ],
-        "responses":[
-          "\nPrice:4,500.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce RTX3060Ti 1 Ultra OC-V 8GB GDDR6\nMotherboard: Gigabyte B460M Gaming HD\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4"
         ]
         },
 
