@@ -1,95 +1,116 @@
-import numpy as np
-import pandas as pd
-import preprocessor as p
-from tensorflow.keras.models import load_model
-import joblib
-from pathlib import Path 
-from PIL import Image
-import streamlit as st
-import SessionState
+import nltk, numpy, tflearn, tensorflow, random, json, pickle, streamlit as st, SessionState, sys
+from nltk.stem.lancaster import LancasterStemmer
+stemmer = LancasterStemmer()
 
-#paths
-img_path = Path.joinpath(Path.cwd(),'images')
-artifacts_path = Path.joinpath(Path.cwd(),'model_artifacts')
-datasets_path = Path.joinpath(Path.cwd(),'dataset')
+with open("dataset/games.json") as file:
+    data = json.load(file)
 
-#load images 
-center = Image.open(Path.joinpath(img_path,'center.jpg'))
-federer_image = Image.open(Path.joinpath(img_path,'federer.jpg'))
-nadal =Image.open(Path.joinpath(img_path,'Nadal.jpg'))
+try:
+    with open("data.pickle", "rb") as f:
+        words, labels, training, output = pickle.load(f)
+except:
+    words = [], labels = [], docs_x = [], docs_y = []
 
-#load artifacts 
-model = load_model(Path.joinpath(artifacts_path,'model-v1.h5'))
-tokenizer_t = joblib.load(Path.joinpath(artifacts_path,'tokenizer_t.pkl'))
-vocab = joblib.load(Path.joinpath(artifacts_path,'vocab.pkl'))
+    for intent in data["intents"]:
+        for pattern in intent["patterns"]:
+            wrds = nltk.word_tokenize(pattern)
+            words.extend(wrds)
+            docs_x.append(wrds)
+            docs_y.append(intent["tag"])
 
-df2 = pd.read_csv(Path.joinpath(datasets_path,'response.csv'))
+        if intent["tag"] not in labels:
+            labels.append(intent["tag"])
 
-# df3 = pd.read_excel(Path.joinpath(datasets_path,'game_data.xlsx'))
+    words = [stemmer.stem(w.lower()) for w in words if w != "?"]
+    words = sorted(list(set(words)))
+
+    labels = sorted(labels)
+
+    training = [], output = []
+
+    out_empty = [0 for _ in range(len(labels))]
+
+    for x, doc in enumerate(docs_x):
+        bag = []
+
+        wrds = [stemmer.stem(w.lower()) for w in doc]
+
+        for w in words:
+            if w in wrds:
+                bag.append(1)
+            else:
+                bag.append(0)
+
+        output_row = out_empty[:]
+        output_row[labels.index(docs_y[x])] = 1
+
+        training.append(bag)
+        output.append(output_row)
 
 
-# st.dataframe(df3)
-# st.table(df3)
+    training = numpy.array(training)
+    output = numpy.array(output)
+
+    with open("data.pickle", "wb") as f:
+        pickle.dump((words, labels, training, output), f)
+
+# tensorflow.reset_default_graph()
+tensorflow.compat.v1.reset_default_graph()
+
+net = tflearn.input_data(shape=[None, len(training[0])])
+net = tflearn.fully_connected(net, 8)
+net = tflearn.fully_connected(net, 8)
+net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
+net = tflearn.regression(net)
+model = tflearn.DNN(net)
+
+try:
+    model.load("model_2.tflearn")
+except:
+    model.fit(training, output, n_epoch=500, batch_size=8, show_metric=True)
+    model.save("model_2.tflearn")
 
 ss = SessionState.get(is_startup=True) 
 
-def get_pred(model,encoded_input):
-    pred = np.argmax(model.predict(encoded_input))
-    return pred
+def bag_of_words(s, words):
+    bag = [0 for _ in range(len(words))]
 
-def bot_precausion(df_input,pred):
-    words = df_input.questions[0].split()
-    if len([w for w in words if w in vocab])==0 :
-        pred = 1
-    return pred
+    s_words = nltk.word_tokenize(s)
+    s_words = [stemmer.stem(word.lower()) for word in s_words]
 
-def get_response(df2,pred):
-    upper_bound = df2.groupby('labels').get_group(pred).shape[0]
-    r = np.random.randint(0,upper_bound)
-    responses = list(df2.groupby('labels').get_group(pred).response)
-    return responses[r]
+    for se in s_words:
+        for i, w in enumerate(words):
+            if w == se:
+                bag[i] = 1
+            
+    return numpy.array(bag)
 
-def bot_response(response,):
-    return response
+def get_text():
+    input_text = st.text_input("You: ", "")
+    return input_text 
 
-
-def botResponse(user_input):
-    df_input = user_input
-    
-    df_input = p.remove_stop_words_for_input(p.tokenizer,df_input,'questions')
-    encoded_input = p.encode_input_text(tokenizer_t,df_input,'questions')
-
-    pred = get_pred(model,encoded_input)
-    pred = bot_precausion(df_input,pred)
-
-    response = get_response(df2,pred)
-    response = bot_response(response)
-    
+def chat():
     if ss.is_startup:
-        response = "Hi, I'm happy to have you here \nI have a lot to discuss about tennis"
+        get_text()
+        response = "Hi, I'm happy to have you here \nI have a lot to discuss about PC or Games"
         ss.is_startup = False
         return response
 
     else:
-        return  response
+        inp = get_text()
+        if inp.lower() == "quit":
+            response = "Thank you. Good bye. Tata. Good night. Oyasumi."
+            return response
 
-def get_text():
-    input_text = st.text_input("You: ","type here")
-    df_input = pd.DataFrame([input_text],columns=['questions'])
-    return df_input 
+        results = model.predict([bag_of_words(inp, words)])
+        results_index = numpy.argmax(results)
+        tag = labels[results_index]
 
+        for tg in data["intents"]:
+            if tg['tag'] == tag:
+                responses = tg['responses'][0]
+                break
 
+        return responses
 
-st.sidebar.title("BoTennis")
-st.title("""
-BoTennis  
-BoTennis is a NLP bot trainned basic tennis corpus using  CNN achitecture
-""")
-
-st.image(center,width=700)
-st.sidebar.image(federer_image)
-st.sidebar.image(nadal,width=350)
-
-user_input = get_text()
-response = botResponse(user_input)
-st.text_area("Bot:", value=response, height=200, max_chars=None, key=None)
+st.text_area("Bot:", value=chat(), height=500, max_chars=None, key=None)
