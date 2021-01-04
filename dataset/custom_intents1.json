@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "tag": "1",
+      "tag": "one",
       "patterns": [
         "Price: 2000 to 3000, Purpose: Gaming, OS: Windows",
         "I want PC spec for gaming with price range 2000 to 3000 and using windows."
@@ -15,7 +15,7 @@
     },
 
     {
-      "tag": "2",
+      "tag": "two",
       "patterns": [
         "Price: 3001 to 5000, Purpose: Gaming, OS: Windows",
         "I want PC spec for gaming with price range 3001 to 5000 and using windows."
@@ -29,7 +29,7 @@
     },
 
     {
-      "tag": "3",
+      "tag": "three",
       "patterns": [
         "Price: 5001 to 7000, Purpose: Gaming, OS: Windows",
         "I want PC spec for gaming with price range 5001 to 7000 and using windows."
@@ -43,7 +43,7 @@
     },
 
     {
-      "tag": "4",
+      "tag": "four",
       "patterns": [
         "Price: 1000 to 2000, Purpose: Working, OS: Windows",
         "I want PC spec for working with price range 1000 to 2000 and using windows."
@@ -57,7 +57,7 @@
     },
 
     {
-      "tag": "5",
+      "tag": "five",
       "patterns": [
         "Price: 2001 to 4000, Purpose: Working, OS: Windows",
         "I want PC spec for working with price range 2001 to 4000 and using windows."
@@ -70,7 +70,7 @@
     },
 
     {
-      "tag": "6",
+      "tag": "six",
       "patterns": [
         "Price: 1000 to 2500, Purpose: Editing, OS: Windows",
         "I want PC spec for editing with price range 1000 to 2500 and using windows."
@@ -83,7 +83,7 @@
     },
 
     {
-      "tag": "7",
+      "tag": "seven",
       "patterns": [
         "Price: 2501 to 4000, Purpose: Editing, OS: Windows",
         "I want PC spec for editing with price range 2501 to 4000 and using windows."
@@ -96,7 +96,7 @@
     },
 
     {
-      "tag": "8",
+      "tag": "eight",
       "patterns": [
         "Price: 4001 to 5500, Purpose: Editing, OS: Windows",
         "I want PC spec for edting with price range 4001 to 5500 and using windows."
@@ -109,7 +109,7 @@
     },
 
     {
-      "tag": "9",
+      "tag": "nine",
       "patterns": [
         "Price: 3000 to 5000, Purpose: Working, OS: Mac",
         "I want Mac spec for working with price range 3000 to 5000."
@@ -123,7 +123,7 @@
     },
 
     {
-      "tag": "10",
+      "tag": "ten",
       "patterns": [
         "Price: 5001 to 9000, Purpose: Working, OS: Mac",
         "I want Mac spec for working with price range 5001 to 9000."
@@ -137,7 +137,7 @@
     },
 
     {
-      "tag": "11",
+      "tag": "eleven",
       "patterns": [
         "Price: 9001 to 13000, Purpose: Editing, OS: Mac",
         "I want Mac spec for editing with price range 9001 to 13000."
@@ -151,7 +151,7 @@
     },
 
     {
-      "tag": "12",
+      "tag": "twelve",
       "patterns": [
         "Price: 13001 to 20000, Purpose: Editing, OS: Mac",
         "I want Mac spec for editing with price range 13001 to 20000."
