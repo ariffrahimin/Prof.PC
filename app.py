@@ -1,15 +1,27 @@
 import nltk, numpy, tflearn, tensorflow, random, json, pickle, streamlit as st, SessionState, sys
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
+from PIL import Image
 
-with open("dataset/games.json") as file:
+#load images 
+center = Image.open('images/pc.jpg')
+pc_image = Image.open('images/pc2.jpg')
+pc =Image.open('images/pc3.jpg')
+pc2 =Image.open('images/pc4.jpeg')
+game =Image.open('images/game.jpg')
+game2 =Image.open('images/game2.jpg')
+
+with open("dataset/gamesCopy.json") as file:
     data = json.load(file)
 
 try:
     with open("data.pickle", "rb") as f:
         words, labels, training, output = pickle.load(f)
 except:
-    words = [], labels = [], docs_x = [], docs_y = []
+    words = []
+    labels = []
+    docs_x = []
+    docs_y = []
 
     for intent in data["intents"]:
         for pattern in intent["patterns"]:
@@ -26,7 +38,8 @@ except:
 
     labels = sorted(labels)
 
-    training = [], output = []
+    training = []
+    output = []
 
     out_empty = [0 for _ in range(len(labels))]
 
@@ -64,11 +77,11 @@ net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
 net = tflearn.regression(net)
 model = tflearn.DNN(net)
 
-try:
-    model.load("model_2.tflearn")
-except:
-    model.fit(training, output, n_epoch=500, batch_size=8, show_metric=True)
-    model.save("model_2.tflearn")
+# try:
+model.load("model_combine.tflearn")
+# except:
+# model.fit(training, output, n_epoch=500, batch_size=8, show_metric=True)
+# model.save("model_combine.tflearn")
 
 ss = SessionState.get(is_startup=True) 
 
@@ -112,5 +125,18 @@ def chat():
                 break
 
         return responses
+
+st.sidebar.title("Prof PC")
+st.title("""
+Prof PC  
+You can ask anything about PC or games requirements.
+""")
+
+st.image(center,width=700)
+st.sidebar.image(pc_image,width=300)
+st.sidebar.image(pc,width=350)
+st.sidebar.image(pc2,width=350)
+st.sidebar.image(game,width=350)
+st.sidebar.image(game2,width=320)
 
 st.text_area("Bot:", value=chat(), height=500, max_chars=None, key=None)

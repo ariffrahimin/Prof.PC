@@ -1,5 +1,64 @@
 {"intents":[
+	{"tag": "Game",
+	"patterns": ["2k - 3k , Gaming , Windows" , "Gaming PC spec with price range 2k to 3k using windows."],
+	"responses": ["Price:2,351.00\nCPU:INTEL CORE i3-10100 LGA 1200 PROCESSOR\nGPU:ZOTAC GAMING GeForce GTX 1650 AMP Core GDDR6\nMotherboard:GIGABYTE H410M H LGA 1200 MOTHERBOARD\nStorage:APACER 2.5 SATA III AS340-240GB\nRam:XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM\n\nPrice:2,542.00\nCPU:INTEL CORE i3-10100 LGA 1200 PROCESSOR\nGPU:GIGABYTE GeForce GTX 1650 EAGLE OC 4GB\nMotherboard:GIGABYTE H410M H LGA 1200 MOTHERBOARD\nStorage:WD BLUE SN550 NVME 250GB M.2\nRam:XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM\n\nPrice:2,900.00\nCPU:Intel® Core i5-10400F LGA 1200 PROCESSOR⠀\nGPU:GIGABYTE GEFORCE GTX 1650 SUPER WINDFORCE OC 4GB GPU\nMotherboard:GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD\nStorage:SAMSUNG 860 EVO SSD 250GB\nRam:XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM"],
+	"context": [""]},
+
+	{"tag": "Game",
+	"patterns": ["Price: 3001 to 5000, Purpose: Gaming, OS: Windows","I want PC spec for gaming with price range 3001 to 5000 and using windows."],
+	"responses": ["Price:3,500.00\nCPU: AMD Ryzen 5 3500X⠀\nGPU: MSI GEFORCE GTX 1660 SUPER VENTUS XS OC GPU⠀\nMotherboard: MSI B550M A PRO AM4 MOTHERBOARD\nStorage: WD Caviar Blue 3.5 1TB 7200RPM SATA HDD\nRam: KLEVV BOLT X (8GBX2) DDR4 3200MHZ RAM⠀\n\nPrice:4,200.00\nCPU: Intel® Core i5-10400F LGA 1200 PROCESSOR⠀\nGPU: ZOTAC GAMING GeForce RTX 2060 OC 6GB 192BIT GDDR6⠀\nMotherboard: GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD⠀\nStorage: ADATA SU650 2.5inch SATA SSD 480GB BLACK RETAIL\nRam: XPG SPECTRIX D50 RGB 3200 MHZ 8GB X 2 DDR4 RAM⠀\n\nPrice:5,000.00\nCPU: AMD Ryzen 5 3600⠀\nGPU: ZOTAC GAMING GEFORCE GTX 1660 SUPER TWIN FAN E GPU⠀\nMotherboard: GIGABYTE B550 AORUS PRO AM4 MOTHERBOARD\nStorage: SAMSUNG 860 EVO SSD 250GB\nRam: XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM"],
+	"context": [""]},
 	
+	{"tag": "Game",
+	"patterns": ["Price: 5001 to 7000, Purpose: Gaming, OS: Windows","I want PC spec for gaming with price range 5001 to 7000 and using windows."],
+	"responses": ["Price:5,342.00\nCPU: AMD Ryzen 5 3600 (6 CORES and 12 THREADS)\nGPU: GALAX GeForce RTX 2080 OC\nMotherboard: GIGABYTE B550 AORUS PRO AM4 MOTHERBOARD\nStorage: Addlink S70 GEN3x4 NMVe 512GB\nRam: KLEVV BOLT XR 8GB x 2 DDR4 3600 GAMING MEMORY\n\nPrice:7,000.00\nCPU: AMD Ryzen 5 3600⠀\nGPU: GIGABYTE GeForce RTX3070 GAMING OC 8GB⠀\nMotherboard: GIGABYTE B460M GAMING HD LGA 1200 MOTHERBOARD\nStorage: SAMSUNG 860 EVO SSD 250GB⠀\nRam: XPG SPECTRIX D50 RGB 3200 MHZ 8GB X 2 DDR4 RAM\n\nPrice:6,059.00\nCPU: AMD Ryzen 5 3600⠀\nGPU: GIGABYTE GeForce RTX3070 GAMING OC 8GB\nMotherboard: GIGABYTE B550 AORUS PRO AM4 MOTHERBOARD⠀\nStorage: Addlink S68 GEN3X4 NVMe 512GB⠀\nRam: XPG SPECTRIX D50 RGB 3200 MHZ 8GB X 2 DDR4 RAM⠀"],
+	"context": [""]},
+
+	{"tag": "Working",
+	"patterns": ["Price: 1000 to 2000, Purpose: Working, OS: Windows","I want PC spec for working with price range 1000 to 2000 and using windows."],
+	"responses": ["Price:1,732.59\nCPU: AMD Ryzen 5 3400G Processor (4MB Cache, up to 4.20GHz)\nGPU: Integrated Graphics\nMotherboard: ASROCK H61M-VS4\nStorage: 500GB Hard Drive, 7200RPM, 3.5inch\nRam: 4GB DDR4 2666MHz UDIMM\n\nPrice:1,962.79\nCPU: Intel Core i3-9100T Processor (6MB Cache, up to 3.70GHz)\nGPU: Integrated GraphGIGABYTE GEFORCE GTX 1650 WINDFORCE OC 4Gic Card\nMotherboard: ASROCK H61M-VS4\nStorage: 500GB Hard Drive, 7200RPM, 2.5inch, SATA3\nRam: 4GB DDR4 2666MHz SoDIMM\n\nPrice:1,500.00\nCPU: Intel Core i5-10400F\nGPU: GTX 1050\nMotherboard: ASROCK H61M-VS4\nStorage: 500GB HDD\nRam: 16GB RAM"],
+	"context": [""]},
+
+	{"tag": "Working",
+	"patterns": ["Price: 2001 to 4000, Purpose: Working, OS: Windows","I want PC spec for working with price range 2001 to 4000 and using windows."],
+	"responses": ["Price:2,411.10\nCPU: Intel Core i5-9500 Processor ( 3.00GHz 9MB )\nGPU: N/A\nMotherboard: ASROCK H61M-VS4\nStorage: 1TB 7200\nRam: 4.0GB PC4-21300 DDR4 UDIMM 2666MHz\n\nPrice:2,000.00\nCPU: AMD Ryzen 5 2600\nGPU: GIGABYTE GEFORCE GTX 1650 WINDFORCE OC 4G\nMotherboard: GIGABYTE A320M S2H V2\nStorage: TOSHIBA P300 3.5 1TB 7200RPM SATA HDD\nRam: PATRIOT V ELITE 8GB 2666MHZ CL16"],
+	"context": [""]},
+
+	{"tag": "Editing",
+	"patterns": ["Price: 1000 to 2500, Purpose: Editing, OS: Windows","I want PC spec for editing with price range 1000 to 2500 and using windows."],
+	"responses": ["Price:2,000.00\nCPU:Intel Core i3-9100F\nGPU:Colorful GeForce GTX1650 EX 4GD6-V\nMotherboard:Gigabyte H310M S2H\nStorage:PNY CS900 240GB\nRam:HyperX Fury 8GB 2666MHz DDR4\n\nPrice:2,500.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce GTX1650 EX 4GD6-V\nMotherboard: GALAX B460M\nStorage: PNY CS900 240GB\nRam: HyperX Fury 8GB 2666MHz DDR4"],
+	"context": [""]},
+
+	{"tag": "Editing",
+	"patterns": ["Price: 2501 to 4000, Purpose: Editing, OS: Windows","I want PC spec for editing with price range 2501 to 4000 and using windows."],
+	"responses": ["Price:2,800.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce GTX1650 Super NB 4G-V\nMotherboard: GALAX B460M\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4\n\nPrice:3,300.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce GTX1660 Super NB 6G-V\nMotherboard: GALAX B460M\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4"],
+	"context": [""]},
+	
+	{"tag": "Editing",
+	"patterns": ["Price: 4001 to 5500, Purpose: Editing, OS: Windows","I want PC spec for edting with price range 4001 to 5500 and using windows."],
+	"responses": ["Price:4,500.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce RTX3060Ti 1 Ultra OC-V 8GB GDDR6\nMotherboard: Gigabyte B460M Gaming HD\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4\n\nPrice:5,300.00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce RTX3070 ADVANCED OC-V 8GB GDDR6\nMotherboard: Gigabyte B460M Gaming HD\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4"],
+	"context": [""]},
+
+	{"tag": "Working",
+	"patterns": ["Price: 3000 to 5000, Purpose: Working, OS: Mac","I want Mac spec for working with price range 3000 to 5000."],
+	"responses": ["MacBook Air\nPrice:4,749.00\nCPU: 2.3GHz dual-core 7th-generation Intel Core i5 processor\nGPU: Intel Iris Plus Graphics 640\nMotherboard: Apple Motherboard\nStorage: 256GB SSD storage¹\nRam: 8GB 2133MHz memory, configurable to 16GB\n\nMacBook Air\nPrice:4,399.00\nCPU: Apple M1 chip\nGPU: N/A\nMotherboard: Apple Motherboard\nStorage: 256GB SSD\nRam: 8GB unified memory\n\nMacBook Air\nPrice:5,399.00\nCPU: Apple M1 chip\nGPU: N/A\nMotherboard: Apple Motherboard\nStorage: 512GB SSD\nRam: 8GB unified memory"],
+	"context": [""]},
+	
+	{"tag": "Working",
+	"patterns": ["Price: 5001 to 9000, Purpose: Working, OS: Mac","I want Mac spec for working with price range 5001 to 9000."],
+	"responses": ["Price:5,599.00\nCPU: 3.6GHz quad-core 8th-generation Intel Core i3 processor\nGPU: Radeon Pro 555X with 2GB of GDDR5 memory\nMotherboard: Apple Motherboard\nStorage: 256GB SSD storage¹\nRam: 8GB 2400MHz DDR4 memory, configurable up to 32GB\n\nPrice:6,449.00\nCPU: 3.0GHz 6-core 8th-generation Intel Core i5 processor\nGPU: Radeon Pro 560X with 4GB of GDDR5 memory\nMotherboard: Apple Motherboard\nStorage: 256GB SSD storage¹\nRam: 8GB 2666MHz DDR4 memory, configurable up to 32GB\n\nPrice:8,849.00\nCPU: 3.3GHz 6-core 10th-generation Intel Core i5 processor\nGPU: Radeon Pro 5300 with 4GB of GDDR6 memory\nMotherboard: Apple Motherboard\nStorage: 512GB SSD storage¹\nRam: 8GB 2666MHz DDR4 memory, configurable up to 128GB"],
+	"context": [""]},
+	
+	{"tag": "Editing",
+	"patterns": ["Price: 9001 to 13000, Purpose: Editing, OS: Mac","I want Mac spec for editing with price range 9001 to 13000."],
+	"responses": ["MacBook Pro 16inch\nPrice:10,099.00\nCPU: 3.8GHz 8-core 10th-generation Intel Core i7 processor\nGPU: Radeon Pro 5500 XT with 8GB of GDDR6 memory\nMotherboard: Apple Motherboard\nStorage: 512GB SSD storage¹\nRam: 8GB 2666MHz DDR4 memory, configurable up to 128GB\n\nMacBook Pro 16inch\nPrice:10,499.00\nCPU: 2.6GHz 6‑core Intel Core i7, Turbo Boost up to 4.5GHz, with 12MB shared L3 cache\nGPU: AMD Radeon Pro 5300M with 4GB of GDDR6\nMotherboard: Apple Motherboard\nStorage: 512GB SSD\nRam: 16GB of 2666MHz DDR4 onboard memory\n\nMacBook Pro 16inch\nPrice:12,199.00\nCPU: 2.3GHz 8‑core Intel Core i9, Turbo Boost up to 4.8GHz, with 16MB shared L3 cache\nGPU: AMD Radeon Pro 5500M with 4GB of GDDR6\nMotherboard: Apple Motherboard\nStorage: 1TB SSD\nRam: 16GB of 2666MHz DDR4 onboard memory"],
+	"context": [""]},
+
+	{"tag": "Editing",
+	"patterns": ["Price: 13001 to 20000, Purpose: Editing, OS: Mac","I want Mac spec for editing with price range 13001 to 20000."],
+	"responses": ["iMac Pro\nPrice:20,000.00\nCPU: 3.0GHz Intel Xeon W\nGPU: Radeon Pro Vega 56 graphics processor\nMotherboard: Apple Motherboard\nStorage: 1TB SSD\nRam: 32GB of 2666MHz DDR4 ECC memory"],
+	"context": [""]},
+
 	{"tag":"Ace Combat 7: Skies Unknown",
 	"patterns":["Ace Combat 7: Skies Unknown requirements","Ace Combat 7: Skies Unknown"],
 	"responses":["MINIMUM REQUIREMENTS:Ace Combat 7: Skies Unknown\nCPU: Intel Core i3-7100\nGPU: NVIDIA GeForce GTX 750Ti(2GB)\nRAM: 4 GB\nVRAM: -\n\n\n\nRECOMMENDED REQUIREMENTS:Ace Combat 7: Skies Unknown\nCPU: Intel Core i5-7500\nGPU: NVIDIA GeForce GTX 1060 (3GB)\nRAM: 8 GB\nVRAM: -"],
